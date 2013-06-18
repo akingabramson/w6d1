@@ -1,8 +1,11 @@
 fs = require('fs');
+_ = require('./underscore.js')
 
 var data = ""
 
-for(var i = 1; i <= 100; i++) {
+
+
+for (var i = 1; i <= 100; i++) {
 	data += i;
 	data += "\n";
 }
